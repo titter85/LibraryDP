@@ -3,7 +3,7 @@ package pl.sda.cmed.design_patterns.operational.observer;
 public class FirstObserver implements  Observer{
     @Override
     public void update(String newValue) {
-        System.out.println(this.getClass().getName()+" [Observed New Value]: "+newValue);
+        System.out.println(this.getClass().getSimpleName()+" [Observed New Value]: "+newValue);
     }
    /* zadanie 3a:
         Zaimplementuj interfejs Observer i w odpowiedzi na aktualizację
